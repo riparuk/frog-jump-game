@@ -10,4 +10,6 @@ Types of monsters/coins and their values.
 small(10), medium(20), large(30).
 
 box position limit from number 0 to 499.
-if the frog is positioned in box number 499, the game is over.
+
+The game will end when the player's score changes to a negative value (minus) or the player has reached the last square (square 499).
+When the game ends, the player's total score will determine the comment given. For example, if the player's score is more than 1500 (exclusive) then the player is excellent. If the player's score is within 500-1500 (inclusive) then the player is good. And if the player's score is less than 500 (exclusive) then the player is bad.
