@@ -8,7 +8,7 @@ the initial frog value is 100. if the frog jumps on a box containing coins, the 
 
 Types of monsters/coins and their values.
 small(10), medium(20), large(30).
-
+Monster is initialized by Negatif(-1,-2,-3) and Coin is initialized by Positif(1,2,3)
 box position limit from number 0 to 499.
 
 The game will end when the player's score changes to a negative value (minus) or the player has reached the last square (square 499).
